@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+  </head>
+  <body>
+    <!-- Floating Shapes -->
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+      <div class="nav-brand">MySite</div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+
+      <ul id="nav-links">
+        <li><a href="profile.html">Home</a></li>
+        <li>
+          <a
+            href="gallery.html"
+            style="color: #00f0ff; text-shadow: 0 0 10px #00f0ff"
+            >Gallery</a
+          >
+        </li>
+        <li><a href="tasks.html">Tasks</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="gallery-section">
+      <h1 class="gallery-title">GALLERY</h1>
+
+      <!-- Tabs -->
+      <div class="gallery-tabs">
+        <button class="tab active" data-tab="tab1">College Projects</button>
+        <button class="tab" data-tab="tab2">Programming languages</button>
+        <button class="tab" data-tab="tab3">Soft Skills</button>
+      </div>
+
+      <!-- TAB 1 -->
+      <div class="gallery-content active" id="tab1">
+        <div class="gallery-item">
+          <img src="image/projects/c.png" />
+          <h3>C Project</h3>
+          <p>C program in which I created an interface with math formulas.</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/projects/hci.png" />
+          <h3>HCI project</h3>
+          <p>We created a prototype webpage for ISCP University.</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/projects/java.png" />
+          <h3>Java Project</h3>
+          <p>I created a calculator with Java using NetBeans.</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/projects/Php.png" />
+          <h3>Php Project</h3>
+          <p>I create here a database to store data.</p>
+        </div>
+      </div>
+
+      <!-- TAB 2 -->
+      <div class="gallery-content" id="tab2">
+        <div class="gallery-item">
+          <img src="image/languages/c.png" />
+          <h3>C</h3>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/languages/css-3.png" />
+          <h3>CSS</h3>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/languages/html-5.png" />
+          <h3>HTML</h3>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/languages/java-script.png" />
+          <h3>JAVASCRIPT</h3>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/languages/java.png" />
+          <h3>JAVA</h3>
+        </div>
+
+        <div class="gallery-item">
+          <img src="image/languages/sql-server.png" />
+          <h3>SQL</h3>
+        </div>
+      </div>
+
+      <!-- TAB 3 -->
+      <div class="gallery-content" id="tab3">
+        <div class="hero" style="text-align: center; color: cyan">
+          On Progress
+        </div>
+        <!--<div class="gallery-item">
+          <img src="img/gallery9.jpg" />
+          <h3>Design 1</h3>
+          <p>Description for design 1.</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/gallery10.jpg" />
+          <h3>Design 2</h3>
+          <p>Description for design 2.</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/gallery11.jpg" />
+          <h3>Design 3</h3>
+          <p>Description for design 3.</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/gallery12.jpg" />
+          <h3>Design 4</h3>
+          <p>Description for design 4.</p>
+        </div>-->
+      </div>
+    </section>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
